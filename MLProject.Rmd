@@ -73,7 +73,7 @@ pred1 <- predict(mod1, training1)
 confusionMatrix(pred1, training1$classe)
 ```
 
-We get a very high accuracy of 99% but we still need to know how this model perform against the test set before expressing a conclusion.
+We get a very high accuracy of 99% but we still need to know how this model performs against the test set before expressing a conclusion.
 
 ```{r}
 pred12 <- predict(mod1, training2)
